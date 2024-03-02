@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>887412744042-lh97j1t5mh0bu7q64ho9d4eeedtljhni.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.887412744042-lh97j1t5mh0bu7q64ho9d4eeedtljhni</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>887412744042-b6tu7d50qi4740kipf5a4m8tj17bcrbq.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBR3z5hxH6wZMZpsE_bIdXdETvRHfLvgtA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>887412744042</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.niceroute</string>
+	<key>PROJECT_ID</key>
+	<string>niceroute-909bb</string>
+	<key>STORAGE_BUCKET</key>
+	<string>niceroute-909bb.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:887412744042:ios:011159dcb13a2a65da0f13</string>
+</dict>
+</plist>

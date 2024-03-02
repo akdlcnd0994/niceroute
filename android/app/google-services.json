@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "887412744042",
+    "project_id": "niceroute-909bb",
+    "storage_bucket": "niceroute-909bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887412744042:android:424eceff87741998da0f13",
+        "android_client_info": {
+          "package_name": "com.example.niceroute"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887412744042-b6tu7d50qi4740kipf5a4m8tj17bcrbq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.niceroute",
+            "certificate_hash": "5475d0a11395dc4c1aeb93e44640b7e7e00c13f3"
+          }
+        },
+        {
+          "client_id": "887412744042-u8gl7fe5j7t1l8j9t1nvh3qbcv1cvjqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQRML1A5m0orWwRODLTf-Ifv4ivXaoPbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887412744042-u8gl7fe5j7t1l8j9t1nvh3qbcv1cvjqj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "887412744042-lh97j1t5mh0bu7q64ho9d4eeedtljhni.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.niceroute"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
