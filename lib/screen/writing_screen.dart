@@ -422,6 +422,7 @@ class _WritingScreenState extends State<WritingScreen> {
                   date: Timestamp.now(),
                 );
                 await FireService().createMemo(fireModel.toJson());
+                Navigator.pop(context);
               },
               child: const Icon(Icons.send)),
         ],

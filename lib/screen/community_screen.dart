@@ -71,6 +71,8 @@ class _CommunityScreenState extends State<CommunityScreen> {
     );
   }
 
+  void readAction() {}
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -127,16 +129,22 @@ class _CommunityScreenState extends State<CommunityScreen> {
               builder: (context, snapshot) {
                 if (snapshot.hasData) {
                   List<StartModel> datas = snapshot.data!;
-                  return ListView.builder(
-                      itemCount: datas.length,
-                      itemBuilder: (BuildContext context, int index) {
-                        StartModel data = datas[index];
-                        return Card(
-                            child: ListTile(
-                          title: Text("${data.local}"),
-                          subtitle: Text("${(data.date)!.toDate()}"),
-                        ));
-                      });
+                  return Expanded(
+                    child: ListView.builder(
+                        itemCount: datas.length,
+                        itemBuilder: (BuildContext context, int index) {
+                          StartModel data = datas[index];
+                          if (selectValue == data.local) {
+                            return Card(
+                                child: ListTile(
+                              onTap: readAction,
+                              title: Text("${data.endName}"),
+                              subtitle: Text("${(data.date)!.toDate()}"),
+                            ));
+                          }
+                          return const SizedBox();
+                        }),
+                  );
                 } else {
                   return const Center(child: CircularProgressIndicator());
                 }
